@@ -1,22 +1,21 @@
 ###        PROJECT 2 --- CROWDFUNDING ETL
 
-## Instructions:
+# Instructions:
 The instructions for this mini project are divided into the following subsections:
+            Create the Category and Subcategory DataFrames
+            Create the Campaign DataFrame
+            Create the Contacts DataFrame
+            Create the Crowdfunding Database
+            Create ERD to create a table schema for each CSV file using PostgresSQL
 
-Create the Category and Subcategory DataFrames
-Create the Campaign DataFrame
-Create the Contacts DataFrame
-Create the Crowdfunding Database
-
-## Tools used:
+# Tools used:
 Python
 Pandas
 PostgreSQL
 Jupyter Notebook
 Excel
 
-## Extract data by using Python and Pandas:
-
+# Extract data by using Python and Pandas:
 Transform and clean data by using Python and Pandas.
 Parse string data into a Python dictionary.
 Use list comprehensions to make code more readable.
@@ -25,7 +24,6 @@ Use regular expressions to manipulate string data
 # Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
 A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 A "category" column that contains only the category titles
-
 
 # Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
 A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
