@@ -25,9 +25,11 @@ Use regular expressions to manipulate string data
 A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 A "category" column that contains only the category titles
 
+
 # Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
 A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
 A "subcategory" column that contains only the subcategory titles
+
 
 # Create the Campaign DataFrame
 Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
@@ -45,6 +47,7 @@ The "launched_at" column, renamed to "launch_date" and with the UTC times conver
 The "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format
 The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
 The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
+
 
 # Create the Contacts DataFrame
     Option 1: Use Python dictionary methods:
@@ -66,6 +69,7 @@ The "subcategory_id" column, with the unique identification numbers matching tho
         Create a new DataFrame that contains the extracted data.
         Split each "name" column value into a first and last name, and place each in a new column.
         Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
+
 
 # Create the Crowdfunding Database
 Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
